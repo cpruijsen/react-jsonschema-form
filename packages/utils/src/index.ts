@@ -30,7 +30,6 @@ import {
 } from './fieldPath.ts';
 import findSchemaDefinition from './findSchemaDefinition.ts';
 import flattenGroupedOptions from './flattenGroupedOptions.ts';
-import forbidsAdditionalProperties from './forbidsAdditionalProperties.ts';
 import getChangedFields from './getChangedFields.ts';
 import type { DateElementFormat, DateElementProp } from './getDateElementProps.ts';
 import getDateElementProps from './getDateElementProps.ts';
@@ -206,7 +205,6 @@ export {
   fieldLabelId,
   findSchemaDefinition,
   flattenGroupedOptions,
-  forbidsAdditionalProperties,
   getChangedFields,
   getDateElementProps,
   getDateTimeLocalValue,
